@@ -1,0 +1,7 @@
+git status
+git log
+git add .    #prida vsechny soubory do commitu
+git commit
+git commit -m "First commit" #zkratka predchoziho commandu
+git push origin master #nahrani zmen na github
+git pull origin master #stahnuti z githubu
