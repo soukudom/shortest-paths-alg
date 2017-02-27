@@ -20,15 +20,27 @@ public:
     void Dijkstra(int start);
     void FloydWarshall(); // Calculate and fill FWDistanceMatrix FWPathMatrix
     void FWShortestPathFrom(int from);
+    ~NCG();
 private:
     void setMatrixSize();
-    bool FWGetPath(int from, int to); // print shortest path
+    void FWGetPath(int from, int to); // print shortest path
 
     int nodes; //number of nodes
     int** matrix; //Input matrix
     int** FWDistanceMatrix; // Distance matrix for Floyd-Warshall
     int** FWPathMatrix; // Path Matrix for Floyd-Warshall
 };
+
+NCG::~NCG() {
+    for (int i = 0; i < nodes; i++) {
+        delete[] matrix[i];
+        delete[] FWDistanceMatrix[i];
+        delete[] FWPathMatrix[i];
+    }
+    delete[] matrix;
+    delete[] FWDistanceMatrix;
+    delete[] FWPathMatrix;
+}
 
 void NCG::TESTPrintMatrix() {
     for (int i = 0; i < nodes; i++) {
@@ -64,21 +76,15 @@ void NCG::FWShortestPathFrom(int from) {
     }
 }
 
-bool NCG::FWGetPath(int from, int to) {
-    if ( from == to) {
+void NCG::FWGetPath(int from, int to) {
+    if ( from == to)
         cout << to;
-        return true;
-    }
-    else if (FWPathMatrix[from][to] == -1) {
+    else if (FWPathMatrix[from][to] == -1)
         cout << "Path does not exist";
-        return false;
-    }
     else {
-        if ( FWGetPath(from, FWPathMatrix[from][to]) == false)
-            return false;
+        FWGetPath(from, FWPathMatrix[from][to]);
         cout << " -> " << to ;
     }
-    return true;
 }
 
 void NCG::FloydWarshall() {
@@ -98,12 +104,10 @@ void NCG::FloydWarshall() {
                 if (FWDistanceMatrix[i][k] ==  INT_MAX || FWDistanceMatrix[k][j] == INT_MAX)
                     continue;
                 if (FWDistanceMatrix[i][j] > FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j]) {
-
                     FWDistanceMatrix[i][j] = FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j];
                     FWPathMatrix[i][j] = FWPathMatrix[k][j];
                 }
             }
-
 }
 
 //start: begin node
@@ -243,10 +247,10 @@ int main( int argc, const char* argv[] )
         return 1;
     }
     ncg.loadMatrix(argv[1]);
-    ncg.Dijkstra(2);
+  //  ncg.Dijkstra(2);
     ncg.FloydWarshall();
-    cout << "----------" << endl;
-    ncg.FWShortestPathFrom(2);
+  //  cout << "----------" << endl;
+  //  ncg.FWShortestPathFrom(2);
     //ncg.TESTPrintMatrix();
     return 0;
 }
