@@ -17,9 +17,9 @@ class NCG {
 public:
     bool loadMatrix(const char * matrixPath);
     void TESTPrintMatrix();
-    void Dijkstra(int start);
     void FloydWarshall(); // Calculate and fill FWDistanceMatrix FWPathMatrix
     void FWShortestPathFrom(int from);
+    int getNodes();
     ~NCG();
 private:
     void setMatrixSize();
@@ -42,6 +42,11 @@ NCG::~NCG() {
     delete[] FWPathMatrix;
 }
 
+int NCG::getNodes(){
+    return nodes;
+
+}
+
 void NCG::TESTPrintMatrix() {
     for (int i = 0; i < nodes; i++) {
         for (int j = 0; j < nodes; j++) {
@@ -50,19 +55,6 @@ void NCG::TESTPrintMatrix() {
         cout << endl;
     }
 }
-
-//Node structure for priority queue
-struct node
-{
-    //position of node
-    int coordinate;
-    //distance from begin node
-    int distance;
-    bool operator<(const node& n) const
-    {
-        return distance > n.distance;
-    }
-};
 
 void NCG::FWShortestPathFrom(int from) {
     for (int i = 0; i < nodes; i++) {
@@ -108,93 +100,6 @@ void NCG::FloydWarshall() {
                     FWPathMatrix[i][j] = FWPathMatrix[k][j];
                 }
             }
-}
-
-//start: begin node
-void NCG::Dijkstra(int start) {
-    priority_queue<node> q;
-    bool *closed = new bool[nodes];
-    int *predecessors = new int[nodes];
-    int *distances = new int[nodes];
-    node node_add;
-    node node_min;
-
-    //initialization
-    for (int i = 0; i < nodes; i++) {
-        if (i == start) {
-            //set attributes for priority queue
-            node_add.coordinate = i;
-            node_add.distance = 0;
-            q.push(node_add);
-            //set attributes
-            closed[i] = true;
-            distances[i] = 0;
-            predecessors[i] = -1;
-        }
-        else {
-            //set default attributes for other nodes
-            distances[i] = INT_MAX;
-            closed[i] = false;
-            predecessors[i] = -1;
-        }
-    }
-
-    while (!q.empty()) {
-        //take out the most valuable node
-        node_min = q.top();
-        q.pop();
-        closed[node_min.coordinate] = true;
-
-        for (int i = 0; i < nodes; i++) {
-            //if edge exists
-            if (matrix[node_min.coordinate][i] != 0) {
-                //if node is open
-                if (!closed[i]) {
-                    //if the new distance is better
-                    if (node_min.distance + matrix[node_min.coordinate][i] < distances[i]) {
-                        //modify the distance and insert new nodes to the priority queue
-                        distances[i] = node_min.distance + matrix[node_min.coordinate][i];
-                        predecessors[i] = node_min.coordinate;
-                        node_add.coordinate = i;
-                        node_add.distance = distances[i];
-                        q.push(node_add);
-                    }
-                }
-            }
-        }
-    }
-
-    //Summarization
-    cout << "The shortest paths are: " << endl;
-    int j = 0;
-    for (int i = 0; i < nodes; i++) {
-        cout << "From: " << start << ", To: " << i << ", Distance: " << distances[i] << ", Path: ";
-        j = i;
-        //Fist node check
-        if (j != start) {
-            cout << j << " <- ";
-        }
-        else {
-            cout << j;
-        }
-        //node path print
-        while (predecessors[j] != -1) {
-            //End predecessor check
-            if (predecessors[j] != start) {
-                cout << predecessors[j] << " <- ";
-            }
-            else {
-                cout << predecessors[j];
-            }
-            j = predecessors[j];
-
-        }
-        cout << endl;
-    }
-    //Deallocation
-    delete [] distances;
-    delete [] closed;
-    delete [] predecessors;
 }
 
 bool NCG::loadMatrix(const char * matrixPath) {
@@ -247,10 +152,10 @@ int main( int argc, const char* argv[] )
         return 1;
     }
     ncg.loadMatrix(argv[1]);
-  //  ncg.Dijkstra(2);
     ncg.FloydWarshall();
-  //  cout << "----------" << endl;
-  //  ncg.FWShortestPathFrom(2);
-    //ncg.TESTPrintMatrix();
+    
+    for(int i = 0; i < ncg.getNodes(); i++){    
+        ncg.FWShortestPathFrom(i);
+    }
     return 0;
 }
