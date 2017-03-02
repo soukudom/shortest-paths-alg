@@ -33,6 +33,21 @@ private:
     bool *closed; //closed flags
 };
 
+//measuring function
+double get_wall_time(){
+    struct timeval time;
+    if (gettimeofday(&time,NULL)){
+        //  Handle error
+        return 0;
+    }   
+    return (double)time.tv_sec + (double)time.tv_usec * .000001;
+}
+double get_cpu_time(){
+    return (double)clock() / CLOCKS_PER_SEC;
+}
+
+
+
 NCG::~NCG() {
     for (int i = 0; i < nodes; i++){
         delete[] matrix[i];
@@ -202,12 +217,23 @@ int main( int argc, const char* argv[] )
     ncg.loadMatrix(argv[1]);
     ncg.allocateMatrix();
 
+    //start of measuring 
+    double wall0 = get_wall_time();
+    double cpu0  = get_cpu_time();
     //run over every node
     for(int i = 0; i< ncg.getNodes(); i++){
         ncg.dijkstra(i);
     }
+
+    //end of measuring
+    double wall1 = get_wall_time();
+    double cpu1  = get_cpu_time();
+
+    //prints results
     for(int i = 0; i< ncg.getNodes(); i++){
         ncg.printDijkstra(i);
     }
+    cout << "Wall Time = " << wall1 - wall0 << endl;
+    cout << "CPU Time  = " << cpu1  - cpu0  << endl;
     return 0;
 }
