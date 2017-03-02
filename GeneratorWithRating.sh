@@ -1,7 +1,7 @@
 #! /bin/bash
 
 min=5
-max=25
+max=40
 n=`cat $1 | head -1`
 file=`echo "$2"`
 matrix=`tail -n +2 $1`
