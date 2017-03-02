@@ -177,9 +177,9 @@ int main( int argc, const char* argv[] )
     double cpu1  = get_cpu_time();
    
     //prints results 
-    for(int i = 0; i < ncg.getNodes(); i++){    
+/*    for(int i = 0; i < ncg.getNodes(); i++){    
         ncg.FWShortestPathFrom(i);
-    }
+    }*/
     cout << "Wall Time = " << wall1 - wall0 << endl;
     cout << "CPU Time  = " << cpu1  - cpu0  << endl;
     return 0;
