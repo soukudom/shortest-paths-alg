@@ -1,0 +1,7 @@
+#! /bin/bash
+
+
+./GeneratorWithRating.sh nodes\=100AvgEdge\=800 task1/data/nodes1000Edge800
+echo "800 done"
+./GeneratorWithRating.sh nodes\=100AvgEdge\=900 task1/data/nodes1000Edge900
+echo DONE!!
