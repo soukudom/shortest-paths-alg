@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.22)  28 FEB 2017 23:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (TeX Live 2015/dev/Debian) (preloaded format=pdflatex 2015.6.22)  7 MAR 2017 08:55
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,32 +600,59 @@ LaTeX Info: Redefining \nameref on input line 15.
 \openout4 = `description.toc'.
 
  [2]
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 32.
- [3]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 32.
+Overfull \hbox (3.96701pt too wide) in paragraph at lines 32--40
+[]\OT1/cmr/m/n/10.95 Pro slo^^Tzitost vy-tvo^^Tren^^Seho al-go-ritmu plat^^S^^P
+: Po^^Tc^^Sate^^Tcn^^S^^P ini-ci-a-li-zace pou^^Tzit^^Sych
+ []
+
+
+Overfull \hbox (16.86076pt too wide) in paragraph at lines 32--40
+\OT1/cmr/m/n/10.95 uzl^^Wu byla pou^^Tzita pri-o-ritn^^S^^P fronta. Cel-kov^^Sa
+ slo^^Tzitost je tedy \OT1/cmr/m/it/10.95 O($[]$)\OT1/cmr/m/n/10.95 .
+ []
+
+
+Overfull \hbox (19.071pt too wide) in paragraph at lines 32--40
+\OT1/cmr/m/n/10.95 pot^^Treba vlo^^Tzit uzel do pri-o-ritn^^S^^P fronty. Slo^^T
+zitost t^^Seto ^^Tcasti je \OT1/cmr/m/it/10.95 O($[]$)\OT1/cmr/m/n/10.95 .
+ []
+
+
+Overfull \hbox (3.96701pt too wide) in paragraph at lines 46--49
+[]\OT1/cmr/m/n/10.95 Pro slo^^Tzitost vy-tvo^^Tren^^Seho al-go-ritmu plat^^S^^P
+: Po^^Tc^^Sate^^Tcn^^S^^P ini-ci-a-li-zace pou^^Tzit^^Sych
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 51.
+[3]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 51.
  (./description.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 32.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 32.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 51.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 51.
 Package rerunfilecheck Info: File `description.out' has not changed.
-(rerunfilecheck)             Checksum: 297CF0CD547B746D92513D12D0DE0279;794.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 32.
+(rerunfilecheck)             Checksum: 0142C283E5D4F24A8670CD09AD3D7D0B;646.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 51.
  ) 
 Here is how much of TeX's memory you used:
- 11546 strings out of 494986
- 160217 string characters out of 6180027
- 234892 words of memory out of 5000000
- 14668 multiletter control sequences out of 15000+600000
- 10016 words of font info for 36 fonts, out of 8000000 for 9000
+ 11552 strings out of 494986
+ 160259 string characters out of 6180027
+ 237892 words of memory out of 5000000
+ 14674 multiletter control sequences out of 15000+600000
+ 10362 words of font info for 37 fonts, out of 8000000 for 9000
  24 hyphenation exceptions out of 8191
  33i,7n,32p,279b,343s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb></usr/shar
-e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texli
-ve/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb>
-Output written on description.pdf (3 pages, 56884 bytes).
+e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/share/texl
+ive/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/share/texlive/tex
+mf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/texlive/texmf-dist
+/fonts/type1/public/amsfonts/cm/cmr8.pfb></usr/share/texlive/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/type1/p
+ublic/amsfonts/cm/cmti10.pfb>
+Output written on description.pdf (3 pages, 90639 bytes).
 PDF statistics:
- 61 PDF objects out of 1000 (max. 8388607)
- 51 compressed objects within 1 object stream
- 9 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 72 PDF objects out of 1000 (max. 8388607)
+ 58 compressed objects within 1 object stream
+ 8 named destinations out of 1000 (max. 500000)
+ 25 words of extra memory for PDF output out of 10000 (max. 10000000)
 

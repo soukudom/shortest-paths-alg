@@ -22,14 +22,30 @@
 
 
 \section{Implementace sekvenčního algoritmu}
-\subsection{Definice problému}
+%\subsection{Definice problému}
 
 \subsection{Popis Dijkstrova algoritmu}
-hleda nekratsi cesty z jednoho uzlu do vsech ostatnich
-upraveny algoritmus prohledavani do sirky
+Algoritmus je možné chápat jako zobecněné prohledávání do šířky. Po provedení nám dává řešení nejkratších
+cest z jednoho počátečního uzlu do všech ostatních. Předpokladem algoritmu je, že žádná hrana není záporně
+ohodnocena. V této implementaci jsou navíc všechny hrany ohodnoceny kladně.
 
+Pro složitost vytvořeného algoritmu platí:
+Počáteční inicializace použitých struktur \textit{O(${nodes}$)}. Délka hlavního cyklu závisí na počtu uzlů.
+V rámci tohoto cyklu se vybírá následující uzel a zpracují se jeho potomci. Pro výběr uzlů byla použita
+prioritní fronta. Celková složitost je tedy  \textit{O(${nodes . log(nodes)}$)}.
+Následně se zpracovávají všechny potomci zvoleného uzlu. Při změně ceny je potřeba vložit uzel do prioritní
+fronty. Složitost této časti je \textit{O(${edges . log(nodes)}$)}. Nakonec je nutné počítat s tím, 
+že se výpočet spouští z každého uzlu. 
+Celková složitost implementovaného Dijsktova algoritmu je\-
+
+\textit{O(${nodes*(nodes+nodes . log(nodes)+edges . log(nodes))}$)}
 
 \subsection{Popis Floyd-Warshallova algoritmu}
+Výsledkem tohto algoritmu jsou nejkratší cesty mezi všemi páry uzlů.
+
+Pro složitost vytvořeného algoritmu platí:
+Počáteční inicializace použitých struktur \textit{O(${nodes}$)}. Následně se provádějí 3 vnořené cykly.
+Celková složitost je tedy \textit{O(${nodes^3}$)}
 
 
 \end{document}
