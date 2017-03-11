@@ -1,0 +1,5 @@
+dijkstra.cpp:135:3: note: loop vectorized
+dijkstra.cpp:135:3: note: loop peeled for vectorization to enhance alignment
+dijkstra.cpp:150:5: note: loop vectorized
+dijkstra.cpp:150:5: note: loop versioned for vectorization because of possible aliasing
+dijkstra.cpp:150:5: note: loop peeled for vectorization to enhance alignment

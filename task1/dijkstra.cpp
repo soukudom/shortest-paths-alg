@@ -27,7 +27,7 @@ private:
     void getPath(int from, int to); //prints the shortest path
 
     int nodes; //number of nodes
-    int** matrix; //input matrix
+    int**  matrix; //input matrix
     int ** predecessorsMatrix; //predecessors matrix
     int ** distancesMatrix; //distance matrix
     bool * closed; //closed flags
@@ -49,7 +49,9 @@ double get_cpu_time(){
 
 
 NCG::~NCG() {
-    for (int i = 0; i < 1500; i++){
+    
+    for (int i = 0; i < nodes; i++){
+        
         delete[] matrix[i];
         delete[] predecessorsMatrix[i];
         delete[] distancesMatrix[i];

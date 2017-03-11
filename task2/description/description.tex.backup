@@ -1,0 +1,49 @@
+\documentclass[a4paper,11pt]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[czech]{babel}
+\usepackage{graphicx}
+\usepackage{listings}
+\usepackage[unicode]{hyperref}
+\usepackage{url}
+\usepackage{hyperref}
+\usepackage{mathtools}
+
+
+\title{\textbf{MI-PAP}}
+\author{Dominik Soukup, Jiří Kadlec}
+\date{01. 03. 2017}
+\begin{document}
+\maketitle
+\thispagestyle{empty}
+\newpage
+\tableofcontents
+\thispagestyle{empty}
+\newpage
+
+
+\section{Implementace sekvenčního algoritmu}
+\subsection{Definice problému}
+
+\subsection{Popis Dijkstrova algoritmu}
+Algoritmus je možné chápat jako zobecněné prohledávání do šířky. Po provedení nám dává řešení nejkratších
+cest z jednoho počátečního uzlu do všech ostatních. Předpokladem algoritmu je, že žádná hrana není záporně
+ohodnocena. V této implementaci jsou navíc všechny hrany ohodnoceny kladně.
+
+Pro složitost vytvořeného algoritmu platí:
+Počáteční inicializace použitých struktur \textit{O(${nodes}$)}. Délka hlavního cyklu závisí na počtu uzlů.
+V rámci tohoto cyklu se vybírá následující uzel a zpracují se jeho potomci. Pro výběr uzlů byla použita
+prioritní fronta. Celková složitost je tedy  \textit{O(${nodes . log(nodes)}$)}.
+Následně se zpracovávají všechny potomci zvoleného uzlu. Při změně ceny je potřeba vložit uzel do prioritní
+fronty. Složitost této časti je \textit{O(${edges . log(nodes)}$)}. Nakonec je nutné počítat s tím, 
+že se výpočet spouští z každého uzlu. 
+Celková složitost implementovaného Dijsktova algoritmu je\-
+
+\textit{O(${nodes*(nodes+nodes . log(nodes)+edges . log(nodes))}$)}
+
+\subsection{Popis Floyd-Warshallova algoritmu}
+
+Pro složitost vytvořeného algoritmu platí:
+
+
+
+\end{document}
