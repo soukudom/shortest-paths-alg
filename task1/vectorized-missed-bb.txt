@@ -1,0 +1,1217 @@
+/usr/include/c++/4.9/bits/locale_facets.h:1076:16: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:81:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:246:11: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_5 = MEM[(_Atomic_word *)this_1(D) + 16B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)this_1(D) + 16B] = _6;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_5 = MEM[(_Atomic_word *)this_1(D) + 16B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)this_1(D) + 16B] = _6;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:245:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:249:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:252:2: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:39:32: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:43:32: note: misalign = 0 bytes of ref time.tv_sec
+dijkstra.cpp:43:32: note: misalign = 8 bytes of ref time.tv_usec
+dijkstra.cpp:43:32: note: Failed to SLP the basic block.
+dijkstra.cpp:43:32: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:43:32: note: misalign = 0 bytes of ref time.tv_sec
+dijkstra.cpp:43:32: note: misalign = 8 bytes of ref time.tv_usec
+dijkstra.cpp:43:32: note: Failed to SLP the basic block.
+dijkstra.cpp:43:32: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:37:8: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:46:26: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:52:5: note: not vectorized: control flow in loop.
+dijkstra.cpp:52:5: note: bad loop form.
+dijkstra.cpp:51:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:53:26: note: not consecutive access _16 = *_15;
+
+dijkstra.cpp:53:26: note: not consecutive access _12 = this_11(D)->matrix;
+
+dijkstra.cpp:53:26: note: Failed to SLP the basic block.
+dijkstra.cpp:53:26: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:53:26: note: not consecutive access _16 = *_15;
+
+dijkstra.cpp:53:26: note: not consecutive access _12 = this_11(D)->matrix;
+
+dijkstra.cpp:53:26: note: Failed to SLP the basic block.
+dijkstra.cpp:53:26: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:53:26: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:54:38: note: not consecutive access _20 = *_19;
+
+dijkstra.cpp:54:38: note: not consecutive access _18 = this_11(D)->predecessorsMatrix;
+
+dijkstra.cpp:54:38: note: Failed to SLP the basic block.
+dijkstra.cpp:54:38: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:54:38: note: not consecutive access _20 = *_19;
+
+dijkstra.cpp:54:38: note: not consecutive access _18 = this_11(D)->predecessorsMatrix;
+
+dijkstra.cpp:54:38: note: Failed to SLP the basic block.
+dijkstra.cpp:54:38: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:54:38: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:55:35: note: not consecutive access _24 = *_23;
+
+dijkstra.cpp:55:35: note: not consecutive access _22 = this_11(D)->distancesMatrix;
+
+dijkstra.cpp:55:35: note: Failed to SLP the basic block.
+dijkstra.cpp:55:35: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:55:35: note: not consecutive access _24 = *_23;
+
+dijkstra.cpp:55:35: note: not consecutive access _22 = this_11(D)->distancesMatrix;
+
+dijkstra.cpp:55:35: note: Failed to SLP the basic block.
+dijkstra.cpp:55:35: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:55:35: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:52:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:51:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:58:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:58:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:58:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:59:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:59:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:59:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:60:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:60:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:60:14: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:61:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:64:12: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:64:12: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:71:5: note: not vectorized: control flow in loop.
+dijkstra.cpp:71:5: note: bad loop form.
+dijkstra.cpp:68:40: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:68:40: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:68:40: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:68:40: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:69:37: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:69:37: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:75:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:67:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:72:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:72:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:72:46: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:72:46: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:73:43: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:73:43: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:67:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:79:9: note: not vectorized: number of iterations cannot be computed.
+dijkstra.cpp:79:9: note: bad inner-loop form.
+dijkstra.cpp:79:9: note: not vectorized: Bad inner loop.
+dijkstra.cpp:79:9: note: bad loop form.
+dijkstra.cpp:79:9: note: not vectorized: number of iterations cannot be computed.
+dijkstra.cpp:79:9: note: bad loop form.
+dijkstra.cpp:78:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:78:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:77:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:77:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:80:29: note: not consecutive access _17 = *_16;
+
+dijkstra.cpp:80:29: note: not consecutive access _13 = *_12;
+
+dijkstra.cpp:80:29: note: not consecutive access _9 = this_6(D)->matrix;
+
+dijkstra.cpp:80:29: note: Failed to SLP the basic block.
+dijkstra.cpp:80:29: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:80:29: note: not consecutive access _17 = *_16;
+
+dijkstra.cpp:80:29: note: not consecutive access _13 = *_12;
+
+dijkstra.cpp:80:29: note: not consecutive access _9 = this_6(D)->matrix;
+
+dijkstra.cpp:80:29: note: Failed to SLP the basic block.
+dijkstra.cpp:80:29: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _23 = MEM[(const struct basic_ios *)_29]._M_ctype;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _21 = cout._vptr.basic_ostream;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _27 = MEM[(long int *)_21 + -24B];
+
+/usr/include/c++/4.9/ostream:565:46: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _23 = MEM[(const struct basic_ios *)_29]._M_ctype;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _21 = cout._vptr.basic_ostream;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _27 = MEM[(long int *)_21 + -24B];
+
+/usr/include/c++/4.9/ostream:565:46: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:49:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:77:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:79:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:77:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:84:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:100:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:46: note: not consecutive access _15 = *_14;
+
+dijkstra.cpp:103:46: note: not consecutive access _11 = *_10;
+
+dijkstra.cpp:103:46: note: not consecutive access _7 = this_6(D)->predecessorsMatrix;
+
+dijkstra.cpp:103:46: note: Failed to SLP the basic block.
+dijkstra.cpp:103:46: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:103:46: note: not consecutive access _15 = *_14;
+
+dijkstra.cpp:103:46: note: not consecutive access _11 = *_10;
+
+dijkstra.cpp:103:46: note: not consecutive access _7 = this_6(D)->predecessorsMatrix;
+
+dijkstra.cpp:103:46: note: Failed to SLP the basic block.
+dijkstra.cpp:103:46: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:101:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:103:50: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:106:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:110:34: note: not vectorized: control flow in loop.
+dijkstra.cpp:110:34: note: bad loop form.
+dijkstra.cpp:109:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:109:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:121:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:108:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:110:34: note: not consecutive access _16 = *_15;
+
+dijkstra.cpp:110:34: note: not consecutive access _12 = *_11;
+
+dijkstra.cpp:110:34: note: not consecutive access _7 = this_5(D)->distancesMatrix;
+
+dijkstra.cpp:110:34: note: Failed to SLP the basic block.
+dijkstra.cpp:110:34: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:110:34: note: not consecutive access _16 = *_15;
+
+dijkstra.cpp:110:34: note: not consecutive access _12 = *_11;
+
+dijkstra.cpp:110:34: note: not consecutive access _7 = this_5(D)->distancesMatrix;
+
+dijkstra.cpp:110:34: note: Failed to SLP the basic block.
+dijkstra.cpp:110:34: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:49:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:109:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:109:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:108:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: control flow in loop.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: bad inner-loop form.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: Bad inner loop.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: bad loop form.
+dijkstra.cpp:194:27: note: not vectorized: control flow in loop.
+dijkstra.cpp:194:27: note: bad loop form.
+dijkstra.cpp:204:17: note: not vectorized: control flow in loop.
+dijkstra.cpp:204:17: note: bad loop form.
+/usr/include/c++/4.9/bits/basic_string.h:275:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:275:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:471:38: note: interleaved store with gaps
+/usr/include/c++/4.9/fstream:471:38: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/fstream:471:38: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/fstream:471:38: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:471:38: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:471:38: note: interleaved store with gaps
+/usr/include/c++/4.9/fstream:471:38: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/fstream:471:38: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/fstream:471:38: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:471:38: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:473:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:543:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:543:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _108 = MEM[(_Ios_Iostate *)_107 + 32B];
+
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _104 = inFile.D.23724._vptr.basic_istream;
+
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _105 = MEM[(long int *)_104 + -24B];
+
+/usr/include/c++/4.9/fstream:544:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:544:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _108 = MEM[(_Ios_Iostate *)_107 + 32B];
+
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _104 = inFile.D.23724._vptr.basic_istream;
+
+/usr/include/c++/4.9/fstream:544:4: note: not consecutive access _105 = MEM[(long int *)_104 + -24B];
+
+/usr/include/c++/4.9/fstream:544:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:544:4: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:548:4: note: not consecutive access _100 = inFile.D.23724._vptr.basic_istream;
+
+/usr/include/c++/4.9/fstream:548:4: note: not consecutive access _101 = MEM[(long int *)_100 + -24B];
+
+/usr/include/c++/4.9/fstream:548:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:548:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:548:4: note: not consecutive access _100 = inFile.D.23724._vptr.basic_istream;
+
+/usr/include/c++/4.9/fstream:548:4: note: not consecutive access _101 = MEM[(long int *)_100 + -24B];
+
+/usr/include/c++/4.9/fstream:548:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:548:4: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:471:38: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _86->D.19412._vptr.ios_base = iftmp.37_91;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&inFile]._vptr.basic_istream = iftmp.35_11;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _84 = MEM[(long int *)iftmp.35_11 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _86->D.19412._vptr.ios_base = iftmp.37_91;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&inFile]._vptr.basic_istream = iftmp.35_11;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _84 = MEM[(long int *)iftmp.35_11 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:228:32: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _60 = MEM[(const struct basic_ios *)_124]._M_ctype;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _121 = cout._vptr.basic_ostream;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _122 = MEM[(long int *)_121 + -24B];
+
+/usr/include/c++/4.9/ostream:565:46: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _60 = MEM[(const struct basic_ios *)_124]._M_ctype;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _121 = cout._vptr.basic_ostream;
+
+/usr/include/c++/4.9/ostream:565:46: note: not consecutive access _122 = MEM[(long int *)_121 + -24B];
+
+/usr/include/c++/4.9/ostream:565:46: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:49:2: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _137 = MEM[(const struct ctype *)_60].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _138 = MEM[(int (*__vtbl_ptr_type) () *)_137 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _137 = MEM[(const struct ctype *)_60].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _138 = MEM[(int (*__vtbl_ptr_type) () *)_137 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:565:46: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:587:25: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _15 = MEM[(const struct basic_ios *)_150]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _147 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _148 = MEM[(long int *)_147 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _15 = MEM[(const struct basic_ios *)_150]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _147 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _148 = MEM[(long int *)_147 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:49:2: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _162 = MEM[(const struct ctype *)_15].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _163 = MEM[(int (*__vtbl_ptr_type) () *)_162 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _162 = MEM[(const struct ctype *)_15].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _163 = MEM[(int (*__vtbl_ptr_type) () *)_162 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:29: note: not consecutive access _262 = this_16(D)->nodes;
+
+dijkstra.cpp:202:29: note: not consecutive access this_16(D)->matrix = _176;
+
+dijkstra.cpp:202:29: note: Failed to SLP the basic block.
+dijkstra.cpp:202:29: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:202:29: note: not consecutive access _262 = this_16(D)->nodes;
+
+dijkstra.cpp:202:29: note: not consecutive access this_16(D)->matrix = _176;
+
+dijkstra.cpp:202:29: note: Failed to SLP the basic block.
+dijkstra.cpp:202:29: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:17: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:35: note: not consecutive access *_181 = _186;
+
+dijkstra.cpp:204:35: note: not consecutive access _182 = this_16(D)->nodes;
+
+dijkstra.cpp:204:35: note: Failed to SLP the basic block.
+dijkstra.cpp:204:35: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:204:35: note: not consecutive access *_181 = _186;
+
+dijkstra.cpp:204:35: note: not consecutive access _182 = this_16(D)->nodes;
+
+dijkstra.cpp:204:35: note: Failed to SLP the basic block.
+dijkstra.cpp:204:35: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:190:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _250 = MEM[(const struct basic_ios *)_266]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _172 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _232 = MEM[(long int *)_172 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _250 = MEM[(const struct basic_ios *)_266]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _172 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _232 = MEM[(long int *)_172 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:49:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _21 = MEM[(const struct basic_ios *)_190]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _18 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _188 = MEM[(long int *)_18 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _21 = MEM[(const struct basic_ios *)_190]._M_ctype;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _18 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not consecutive access _188 = MEM[(long int *)_18 + -24B];
+
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:867:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:868:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:869:23: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _202 = MEM[(const struct ctype *)_119].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _203 = MEM[(int (*__vtbl_ptr_type) () *)_202 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _202 = MEM[(const struct ctype *)_119].D.16381._vptr.facet;
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not consecutive access _203 = MEM[(int (*__vtbl_ptr_type) () *)_202 + 48B];
+
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/locale_facets.h:870:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:2814:56: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:456:59: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/sstream:328:68: note: interleaved store with gaps
+/usr/include/c++/4.9/sstream:328:68: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&is + 96B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 16 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._vptr.basic_streambuf
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 24 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_beg
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_cur
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_end
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 16 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_beg
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 24 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_cur
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_end
+/usr/include/c++/4.9/sstream:328:68: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:328:68: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/sstream:328:68: note: interleaved store with gaps
+/usr/include/c++/4.9/sstream:328:68: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&is + 96B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._vptr.basic_streambuf
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_beg
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_cur
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_end
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_beg
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_cur
+/usr/include/c++/4.9/sstream:328:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_end
+/usr/include/c++/4.9/sstream:328:68: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:328:68: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not consecutive access _246 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B]._M_mode = 8;
+
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not consecutive access _246 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B]._M_mode = 8;
+
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/sstream:329:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:193:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:193:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not consecutive access _35 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/sstream:338:9: note: interleaved store with gaps
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/sstream:338:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&is + 96B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/sstream:338:9: note: misalign = 16 bytes of ref MEM[(struct basic_stringbuf *)&is + 16B].D.24759._vptr.basic_streambuf
+/usr/include/c++/4.9/sstream:338:9: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not consecutive access _35 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/sstream:338:9: note: interleaved store with gaps
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/sstream:338:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&is + 96B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/sstream:338:9: note: misalign = 0 bytes of ref MEM[(struct basic_stringbuf *)&is + 16B].D.24759._vptr.basic_streambuf
+/usr/include/c++/4.9/sstream:338:9: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/sstream:64:11: note: not consecutive access _248 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/sstream:64:11: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B].D.24759._vptr.basic_streambuf = &MEM[(void *)&_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE + 16B];
+
+/usr/include/c++/4.9/sstream:64:11: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:64:11: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/sstream:64:11: note: not consecutive access _248 = MEM[(const struct basic_string *)&is + 88B]._M_dataplus._M_p;
+
+/usr/include/c++/4.9/sstream:64:11: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B].D.24759._vptr.basic_streambuf = &MEM[(void *)&_ZTVSt15basic_stringbufIcSt11char_traitsIcESaIcEE + 16B];
+
+/usr/include/c++/4.9/sstream:64:11: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/sstream:64:11: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:246:11: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:49:61: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_257 = MEM[(_Atomic_word *)_248 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_248 + -8B] = _258;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_257 = MEM[(_Atomic_word *)_248 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_248 + -8B] = _258;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:245:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:249:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _223->D.19412._vptr.ios_base = iftmp.37_416;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&is]._vptr.basic_istream = iftmp.35_425;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _221 = MEM[(long int *)iftmp.35_425 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _223->D.19412._vptr.ios_base = iftmp.37_416;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&is]._vptr.basic_istream = iftmp.35_425;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _221 = MEM[(long int *)iftmp.35_425 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:194:27: note: not consecutive access _28 = *_27;
+
+dijkstra.cpp:194:27: note: not consecutive access _24 = this_16(D)->matrix;
+
+dijkstra.cpp:194:27: note: Failed to SLP the basic block.
+dijkstra.cpp:194:27: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:194:27: note: not consecutive access _28 = *_27;
+
+dijkstra.cpp:194:27: note: not consecutive access _24 = this_16(D)->matrix;
+
+dijkstra.cpp:194:27: note: Failed to SLP the basic block.
+dijkstra.cpp:194:27: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:193:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:193:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:81:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:246:11: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_276 = MEM[(_Atomic_word *)_35 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_35 + -8B] = _277;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_276 = MEM[(_Atomic_word *)_35 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_35 + -8B] = _277;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:245:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:249:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/sstream:338:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:502:9: note: interleaved store with gaps
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/fstream:502:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/fstream:502:9: note: misalign = 16 bytes of ref MEM[(struct basic_filebuf *)&inFile + 16B].D.23633._vptr.basic_streambuf
+/usr/include/c++/4.9/fstream:502:9: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:502:9: note: interleaved store with gaps
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/4.9/fstream:502:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.19412._vptr.ios_base
+/usr/include/c++/4.9/fstream:502:9: note: misalign = 0 bytes of ref MEM[(struct basic_filebuf *)&inFile + 16B].D.23633._vptr.basic_streambuf
+/usr/include/c++/4.9/fstream:502:9: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/fstream:220:24: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:220:24: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/fstream:502:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _291->D.19412._vptr.ios_base = iftmp.37_91;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&inFile]._vptr.basic_istream = iftmp.35_11;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _289 = MEM[(long int *)iftmp.35_11 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _291->D.19412._vptr.ios_base = iftmp.37_91;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access MEM[(struct basic_istream *)&inFile]._vptr.basic_istream = iftmp.35_11;
+
+/usr/include/c++/4.9/istream:104:36: note: not consecutive access _289 = MEM[(long int *)iftmp.35_11 + -24B];
+
+/usr/include/c++/4.9/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_ios.h:276:22: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:81:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:246:11: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_300 = MEM[(_Atomic_word *)_49 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_49 + -8B] = _301;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access __result_300 = MEM[(_Atomic_word *)_49 + -8B];
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not consecutive access MEM[(_Atomic_word *)_49 + -8B] = _301;
+
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/ext/atomicity.h:67:30: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:245:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:249:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:196:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/basic_string.h:293:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:176:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/allocator.h:121:30: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:203:5: note: not vectorized: control flow in loop.
+dijkstra.cpp:203:5: note: bad loop form.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:202:28: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:206:1: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:201:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:17: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:204:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:201:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:201:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: not consecutive access __position_14 = MEM[(struct __normal_iterator *)&__position];
+
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: not consecutive access __position_14 = MEM[(struct __normal_iterator *)&__position];
+
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:330:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:130:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: more than one data ref in stmt: *_4 = MEM[(const struct node &)_4 + 18446744073709551608];
+
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: more than one data ref in stmt: *_4 = MEM[(const struct node &)_4 + 18446744073709551608];
+
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: not consecutive access this_3(D)->D.32323._M_impl._M_finish = _6;
+
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: not consecutive access this_3(D)->D.32323._M_impl._M_finish = _6;
+
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:335:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:578:33: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:343:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:655:74: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:655:74: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:1427:55: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:1428:63: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:104:60: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:366:36: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: more than one data ref in stmt: *_16 = *__x_8(D);
+
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: more than one data ref in stmt: *_16 = *__x_8(D);
+
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:376:36: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:378:61: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:375:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:375:8: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:326:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:378:61: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:379:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_algobase.h:379:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/vector.tcc:397:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/vector.tcc:401:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:914:40: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:914:40: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: control flow in loop.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: bad loop form.
+/usr/include/c++/4.9/bits/stl_heap.h:212:7: note: not vectorized: number of iterations cannot be computed.
+/usr/include/c++/4.9/bits/stl_heap.h:212:7: note: bad loop form.
+/usr/include/c++/4.9/bits/stl_heap.h:212:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:212:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: not vectorized: more than one data ref in stmt: *_34 = MEM[(const struct node &)prephitmp_152];
+
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: not vectorized: more than one data ref in stmt: *_34 = MEM[(const struct node &)prephitmp_152];
+
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:214:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:221:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:221:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:223:4: note: not vectorized: more than one data ref in stmt: *prephitmp_145 = MEM[(const struct node &)_43];
+
+/usr/include/c++/4.9/bits/stl_heap.h:223:4: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:223:4: note: not vectorized: more than one data ref in stmt: *prephitmp_145 = MEM[(const struct node &)_43];
+
+/usr/include/c++/4.9/bits/stl_heap.h:223:4: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:129:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:129:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:129:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:129:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_50 = MEM[(const struct node &)_54];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_50 = MEM[(const struct node &)_54];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:221:7: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:207:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:149:5: note: not vectorized: multiple nested loops.
+dijkstra.cpp:149:5: note: bad loop form.
+dijkstra.cpp:157:43: note: not vectorized: control flow in loop.
+dijkstra.cpp:157:43: note: bad inner-loop form.
+dijkstra.cpp:157:43: note: not vectorized: Bad inner loop.
+dijkstra.cpp:157:43: note: bad loop form.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: control flow in loop.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: bad loop form.
+dijkstra.cpp:131:9: note: not vectorized: control flow in loop.
+dijkstra.cpp:131:9: note: bad inner-loop form.
+dijkstra.cpp:131:9: note: not vectorized: Bad inner loop.
+dijkstra.cpp:131:9: note: bad loop form.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: control flow in loop.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: bad loop form.
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: not consecutive access _312 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 0 bytes of ref MEM[(struct _Vector_base *)&q]._M_impl._M_start
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 16 bytes of ref MEM[(struct _Vector_base *)&q]._M_impl._M_end_of_storage
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 8 bytes of ref MEM[(struct vector *)&q].D.32323._M_impl._M_finish
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: not consecutive access _312 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 0 bytes of ref MEM[(struct _Vector_base *)&q]._M_impl._M_start
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 0 bytes of ref MEM[(struct _Vector_base *)&q]._M_impl._M_end_of_storage
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: misalign = 8 bytes of ref MEM[(struct vector *)&q].D.32323._M_impl._M_finish
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:185:2: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:137:21: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:131:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:133:36: note: not consecutive access _182 = MEM[(struct vector *)&q].D.32323._M_impl._M_end_of_storage;
+
+dijkstra.cpp:133:36: note: misalign = 0 bytes of ref node_add.coordinate
+dijkstra.cpp:133:36: note: misalign = 4 bytes of ref node_add.distance
+dijkstra.cpp:133:36: note: Build SLP failed: unrolling required in basic block SLP
+dijkstra.cpp:133:36: note: Failed to SLP the basic block.
+dijkstra.cpp:133:36: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:133:36: note: not consecutive access _182 = MEM[(struct vector *)&q].D.32323._M_impl._M_end_of_storage;
+
+dijkstra.cpp:133:36: note: misalign = 0 bytes of ref node_add.coordinate
+dijkstra.cpp:133:36: note: misalign = 4 bytes of ref node_add.distance
+dijkstra.cpp:133:36: note: Build SLP failed: unrolling required in basic block SLP
+dijkstra.cpp:133:36: note: Failed to SLP the basic block.
+dijkstra.cpp:133:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:130:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: more than one data ref in stmt: *prephitmp_387 = node_add;
+
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: more than one data ref in stmt: *prephitmp_387 = node_add;
+
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:919:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:919:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:925:4: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:925:4: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not consecutive access _181 = MEM[(struct node * const &)&q];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not consecutive access _181 = MEM[(struct node * const &)&q];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:143:34: note: not consecutive access *_45 = 2147483647;
+
+dijkstra.cpp:143:34: note: not consecutive access *_53 = -1;
+
+dijkstra.cpp:143:34: note: not consecutive access _42 = *_41;
+
+dijkstra.cpp:143:34: note: not consecutive access _52 = *_51;
+
+dijkstra.cpp:143:34: note: not consecutive access *_48 = 0;
+
+dijkstra.cpp:143:34: note: Failed to SLP the basic block.
+dijkstra.cpp:143:34: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:143:34: note: not consecutive access *_45 = 2147483647;
+
+dijkstra.cpp:143:34: note: not consecutive access *_53 = -1;
+
+dijkstra.cpp:143:34: note: not consecutive access _42 = *_41;
+
+dijkstra.cpp:143:34: note: not consecutive access _52 = *_51;
+
+dijkstra.cpp:143:34: note: not consecutive access *_48 = 0;
+
+dijkstra.cpp:143:34: note: Failed to SLP the basic block.
+dijkstra.cpp:143:34: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:130:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:130:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:151:27: note: Failed to SLP the basic block.
+dijkstra.cpp:151:27: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:151:27: note: Failed to SLP the basic block.
+dijkstra.cpp:151:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not vectorized: more than one data ref in stmt: __comp = D.37242;
+
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not consecutive access MEM[(struct __normal_iterator *)&__first] = _106;
+
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not vectorized: more than one data ref in stmt: __comp = D.37242;
+
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not consecutive access MEM[(struct __normal_iterator *)&__first] = _106;
+
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:763:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access *_59 = 1;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access MEM[(struct node * *)&q + 8B] = _217;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access _151 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access _57 = this_15(D)->closed;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access *_59 = 1;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access MEM[(struct node * *)&q + 8B] = _217;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access _151 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not consecutive access _57 = this_15(D)->closed;
+
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:951:2: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:157:43: note: not consecutive access _69 = *_68;
+
+dijkstra.cpp:157:43: note: not consecutive access _65 = *_64;
+
+dijkstra.cpp:157:43: note: not consecutive access _62 = this_15(D)->matrix;
+
+dijkstra.cpp:157:43: note: Failed to SLP the basic block.
+dijkstra.cpp:157:43: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:157:43: note: not consecutive access _69 = *_68;
+
+dijkstra.cpp:157:43: note: not consecutive access _65 = *_64;
+
+dijkstra.cpp:157:43: note: not consecutive access _62 = this_15(D)->matrix;
+
+dijkstra.cpp:157:43: note: Failed to SLP the basic block.
+dijkstra.cpp:157:43: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:159:30: note: not consecutive access _72 = *_71;
+
+dijkstra.cpp:159:30: note: not consecutive access _70 = this_15(D)->closed;
+
+dijkstra.cpp:159:30: note: Failed to SLP the basic block.
+dijkstra.cpp:159:30: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:159:30: note: not consecutive access _72 = *_71;
+
+dijkstra.cpp:159:30: note: not consecutive access _70 = this_15(D)->closed;
+
+dijkstra.cpp:159:30: note: Failed to SLP the basic block.
+dijkstra.cpp:159:30: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:161:43: note: not consecutive access _80 = *_79;
+
+dijkstra.cpp:161:43: note: not consecutive access _78 = *_77;
+
+dijkstra.cpp:161:43: note: not consecutive access _74 = this_15(D)->distancesMatrix;
+
+dijkstra.cpp:161:43: note: Failed to SLP the basic block.
+dijkstra.cpp:161:43: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:161:43: note: not consecutive access _80 = *_79;
+
+dijkstra.cpp:161:43: note: not consecutive access _78 = *_77;
+
+dijkstra.cpp:161:43: note: not consecutive access _74 = this_15(D)->distancesMatrix;
+
+dijkstra.cpp:161:43: note: Failed to SLP the basic block.
+dijkstra.cpp:161:43: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:163:103: note: not consecutive access *_79 = _73;
+
+dijkstra.cpp:163:103: note: not consecutive access *_85 = node_min$coordinate_104;
+
+dijkstra.cpp:163:103: note: not consecutive access _92 = *_91;
+
+dijkstra.cpp:163:103: note: not consecutive access _84 = *_83;
+
+dijkstra.cpp:163:103: note: not consecutive access _90 = *_89;
+
+dijkstra.cpp:163:103: note: not consecutive access _233 = MEM[(struct vector *)&q].D.32323._M_impl._M_end_of_storage;
+
+dijkstra.cpp:163:103: note: misalign = 0 bytes of ref node_add.coordinate
+dijkstra.cpp:163:103: note: misalign = 4 bytes of ref node_add.distance
+dijkstra.cpp:163:103: note: Build SLP failed: unrolling required in basic block SLP
+dijkstra.cpp:163:103: note: Failed to SLP the basic block.
+dijkstra.cpp:163:103: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:163:103: note: not consecutive access *_79 = _73;
+
+dijkstra.cpp:163:103: note: not consecutive access *_85 = node_min$coordinate_104;
+
+dijkstra.cpp:163:103: note: not consecutive access _92 = *_91;
+
+dijkstra.cpp:163:103: note: not consecutive access _84 = *_83;
+
+dijkstra.cpp:163:103: note: not consecutive access _90 = *_89;
+
+dijkstra.cpp:163:103: note: not consecutive access _233 = MEM[(struct vector *)&q].D.32323._M_impl._M_end_of_storage;
+
+dijkstra.cpp:163:103: note: misalign = 0 bytes of ref node_add.coordinate
+dijkstra.cpp:163:103: note: misalign = 4 bytes of ref node_add.distance
+dijkstra.cpp:163:103: note: Build SLP failed: unrolling required in basic block SLP
+dijkstra.cpp:163:103: note: Failed to SLP the basic block.
+dijkstra.cpp:163:103: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:130:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: more than one data ref in stmt: *prephitmp_281 = node_add;
+
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: more than one data ref in stmt: *prephitmp_281 = node_add;
+
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:919:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:919:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:925:4: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:925:4: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not consecutive access _232 = MEM[(struct node * const &)&q];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not consecutive access _232 = MEM[(struct node * const &)&q];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:729:23: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:128:48: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:155:9: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:161:99: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:149:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:149:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:177:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_queue.h:370:11: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:161:33: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_vector.h:161:33: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_queue.h:370:11: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_31 = 0;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_36 = -1;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access _29 = *_28;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access _35 = *_34;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_23 = 1;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_31 = 0;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_36 = -1;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access _29 = *_28;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access _35 = *_34;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access *_23 = 1;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_198 = MEM[(const struct node &)_202];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_198 = MEM[(const struct node &)_202];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access pretmp_430 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not consecutive access pretmp_430 = this_15(D)->nodes;
+
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Build SLP failed: unrolling required in basic block SLP
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: Failed to SLP the basic block.
+/usr/include/c++/4.9/bits/stl_heap.h:135:7: note: not vectorized: failed to find SLP opportunities in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_249 = MEM[(const struct node &)_253];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: more than one data ref in stmt: *_249 = MEM[(const struct node &)_253];
+
+/usr/include/c++/4.9/bits/stl_iterator.h:782:45: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:124:6: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:224:24: note: not vectorized: control flow in loop.
+dijkstra.cpp:224:24: note: bad loop form.
+dijkstra.cpp:212:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:535:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:113:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:216:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:216:27: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:217:25: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:220:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:228:34: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:224:24: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:223:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:223:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:221:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:113:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:236:39: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:221:29: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/ostream:113:19: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:237:13: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:208:5: note: not vectorized: not enough data-refs in basic block.
+dijkstra.cpp:237:13: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/4.9/iostream:74:25: note: not vectorized: not enough data-refs in basic block.

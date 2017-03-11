@@ -28,9 +28,9 @@ private:
 
     int nodes; //number of nodes
     int** matrix; //input matrix
-    int **predecessorsMatrix; //predecessors matrix
-    int **distancesMatrix; //distance matrix
-    bool *closed; //closed flags
+    int ** predecessorsMatrix; //predecessors matrix
+    int ** distancesMatrix; //distance matrix
+    bool * closed; //closed flags
 };
 
 //measuring function
@@ -49,7 +49,7 @@ double get_cpu_time(){
 
 
 NCG::~NCG() {
-    for (int i = 0; i < nodes; i++){
+    for (int i = 0; i < 1500; i++){
         delete[] matrix[i];
         delete[] predecessorsMatrix[i];
         delete[] distancesMatrix[i];
@@ -106,7 +106,6 @@ void NCG::getPath(int from, int to) {
 }
     
 void NCG::printDijkstra(int start){
-    int j = 0;
     for (int i = 0; i < nodes; i++) {
         if (distancesMatrix[start][i] == INT_MAX){
             cout << "From: " << start << ", To: " << i << ", Path does not exist" << endl;
