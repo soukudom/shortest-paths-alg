@@ -79,7 +79,8 @@ void NCG::allocateMatrix(){
 
 void NCG::printMatrix() {
     for (int i = 0; i < nodes; i++) {
-        for (int j = 0; j < nodes; j++) {
+        int tmp = nodes;
+        for (int j = 0; j < tmp; j++) {
             cout << matrix[i][j] << " ";
         }
         cout << endl;
@@ -124,26 +125,12 @@ void NCG::printDijkstra(int start){
 }
 
 
-/*int b[256], c[256];
-void foo () {
-int **a = new int*[100];
-for(int j =0; j<100;j++){
-    a[j]= new int[100];
-}
-  int i;
-
-  for (i=0; i<100; i++){
-    a[10][i] = INT_MAX;
-  }
-}*/
-
 
 //start: begin node
 void NCG::dijkstra(int start) {
     priority_queue<node> q; //priority queue
     node node_add; //help structure for adding a node
     node node_min; //help structure for choosing a minimal node
-    bool val[] = {false,false,false,false,false};
 
     //initialization
     int tmp = nodes;
