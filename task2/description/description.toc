@@ -1,4 +1,0 @@
-\select@language {czech}
-\contentsline {section}{\numberline {1}Implementace sekven\IeC {\v c}n\IeC {\'\i }ho algoritmu}{3}{section.1}
-\contentsline {subsection}{\numberline {1.1}Popis Dijkstrova algoritmu}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Popis Floyd-Warshallova algoritmu}{3}{subsection.1.2}
