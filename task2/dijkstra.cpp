@@ -10,29 +10,25 @@
 #include <vector>
 #include <queue>
 #include <limits.h>
+#include <omp.h>
 
-typedef int aint __attribute__ ((__aligned__(16)));
 using namespace std;
 
-class NCG {
-public:
     bool loadMatrix(const char * matrixPath); //loads matrix from a file
     void printMatrix(); //prints loaded matrix
     void dijkstra(int start); //finds the shortest paths from start node
     void printDijkstra(int start); //prints finded results
     void allocateMatrix(); //allocates structures on the heap
-    int getNodes(); //returns number of nodes
-    ~NCG(); //descructor
-private:
+    void deleteMemory(); //descructor
     void setMatrixSize(); //allocated structures for input graph
     void getPath(int from, int to); //prints the shortest path
+    void dijkstraAll();
 
     int nodes; //number of nodes
-    int** __restrict__ matrix; //input matrix
-    int ** __restrict__ predecessorsMatrix; //predecessors matrix
-    int ** __restrict__ distancesMatrix; //distance matrix
-    int * __restrict__ closed; //closed flags
-};
+    int**  matrix; //input matrix
+    int ** predecessorsMatrix; //predecessors matrix
+    int ** distancesMatrix; //distance matrix
+    int threads; // number of threads
 
 //measuring function
 double get_wall_time(){
@@ -49,7 +45,7 @@ double get_cpu_time(){
 
 
 
-NCG::~NCG() {
+void deleteMemory() {
     
     for (int i = 0; i < nodes; i++){
         
@@ -60,27 +56,22 @@ NCG::~NCG() {
     delete[] matrix;
     delete[] predecessorsMatrix;
     delete[] distancesMatrix;
-    delete[] closed;
+  //  delete[] closed;
 }
 
-int NCG::getNodes(){
-    return nodes;
-}
-
-void NCG::allocateMatrix(){
+void allocateMatrix(){
     predecessorsMatrix = new int*[nodes];
     distancesMatrix = new int*[nodes];
-    closed = new int[nodes];
+    //closed = new int[nodes];
     for(int i = 0; i < nodes; i++){
         predecessorsMatrix[i] = new int[nodes];       
         distancesMatrix[i] = new int[nodes];
     }
 }
 
-void NCG::printMatrix() {
+void printMatrix() {
     for (int i = 0; i < nodes; i++) {
-        int tmp = nodes;
-        for (int j = 0; j < tmp; j++) {
+        for (int j = 0; j < nodes; j++) {
             cout << matrix[i][j] << " ";
         }
         cout << endl;
@@ -100,7 +91,7 @@ struct node
     }
 };
 
-void NCG::getPath(int from, int to) {
+void getPath(int from, int to) {
     if ( from == to) 
         cout << to; 
     else {
@@ -109,7 +100,7 @@ void NCG::getPath(int from, int to) {
     }   
 }
     
-void NCG::printDijkstra(int start){
+void printDijkstra(int start){
     for (int i = 0; i < nodes; i++) {
         if (distancesMatrix[start][i] == INT_MAX){
             cout << "From: " << start << ", To: " << i << ", Path does not exist" << endl;
@@ -124,34 +115,15 @@ void NCG::printDijkstra(int start){
 
 }
 
-
-
 //start: begin node
-void NCG::dijkstra(int start) {
+void dijkstra(int start) {
     priority_queue<node> q; //priority queue
     node node_add; //help structure for adding a node
     node node_min; //help structure for choosing a minimal node
-
-    //initialization
-    int tmp = nodes;
-    for (int i = 0; i < tmp; i++) {
-    /*    if (i == start) {
-            //set attributes for priority queue
-            node_add.coordinate = i;
-            node_add.distance = 0;
-            q.push(node_add);
-            //set attributes
-            closed[i] = true;
-            distancesMatrix[start][i] = 0;
-            predecessorsMatrix[start][i] = -1;
-        }*/
-       // else {
-            //set default attributes for other nodes
-            distancesMatrix[start][i] = INT_MAX;
-            closed[i] = 0;//false;
-            predecessorsMatrix[start][i] = -1;
-     //   }
-    }
+    int closed [nodes];
+        for(int j = 0; j < nodes; j++){
+            closed[j]=0;
+        }
 
     //set attributes for priority queue
     node_add.coordinate = start;
@@ -161,8 +133,6 @@ void NCG::dijkstra(int start) {
     closed[start] = 1;
     distancesMatrix[start][start] = 0;
     predecessorsMatrix[start][start] = -1;
-
-    
 
     while (!q.empty()) {
         //take out the most valuable node
@@ -191,7 +161,7 @@ void NCG::dijkstra(int start) {
 
 }
 
-bool NCG::loadMatrix(const char * matrixPath) {
+bool loadMatrix(const char * matrixPath) {
     string line;
 
     ifstream inFile (matrixPath);
@@ -216,41 +186,61 @@ bool NCG::loadMatrix(const char * matrixPath) {
     return true;
 }
 
-void NCG::setMatrixSize() {
+void setMatrixSize() {
     matrix = new int*[nodes];
     for (int i = 0; i < nodes; i++) {
         matrix[i] = new int[nodes];
     }
 }
 
+void dijkstraAll(){
+    //initialization
+    int tmp = nodes;
+    for (int j = 0; j < tmp; j++){
+        for (int i = 0; i < tmp; i++) {
+            //set default attributes for other nodes
+            distancesMatrix[j][i] = INT_MAX;
+            predecessorsMatrix[j][i] = -1;
+        }
+    }
+
+    //run over every node
+    #pragma omp parallel for num_threads(threads) schedule(static) shared(matrix,nodes,threads, predecessorsMatrix, distancesMatrix)
+    for(int i = 0; i< tmp; i++){
+        dijkstra(i);
+    }
+}
+
 int main( int argc, const char* argv[] )
 {
-    NCG ncg;
 
-    if ( argc != 2 ) {
-        cout << "Bad Input.. 1st parameter: Path to file" << endl;
+    if ( argc != 3 ) {
+        cout << "Bad Input.. 1st parameter: Path to file, 2nd parameter: Number of threads" << endl;
         return 1;
     }
-    ncg.loadMatrix(argv[1]);
-    ncg.allocateMatrix();
-
+    loadMatrix(argv[1]);
+    allocateMatrix();
+    threads = atoi(argv[2]);
     //start of measuring 
     double wall0 = get_wall_time();
     double cpu0  = get_cpu_time();
-    //run over every node
-    for(int i = 0; i< ncg.getNodes(); i++){
-        ncg.dijkstra(i);
-    }
+    double start = omp_get_wtime();
+
+    dijkstraAll();
 
     //end of measuring
     double wall1 = get_wall_time();
     double cpu1  = get_cpu_time();
+    double end = omp_get_wtime( );  
+    
 
     //prints results
-/*    for(int i = 0; i< ncg.getNodes(); i++){
-        ncg.printDijkstra(i);
-    }*/
+    for(int i = 0; i< nodes; i++){
+        printDijkstra(i);
+    }
+    deleteMemory();
     cout << "Wall Time = " << wall1 - wall0 << endl;
     cout << "CPU Time  = " << cpu1  - cpu0  << endl;
+    cout << "OpenMP Time = " << end - start << endl;
     return 0;
 }

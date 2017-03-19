@@ -1,3 +1,0 @@
-dijkstra.cpp:137:23: note: loop vectorized
-dijkstra.cpp:137:23: note: loop versioned for vectorization because of possible aliasing
-dijkstra.cpp:137:23: note: loop peeled for vectorization to enhance alignment
