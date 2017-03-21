@@ -22,7 +22,7 @@
 
 
 \section{Implementace sekvenčního algoritmu}
-\subsection{Definice problému}
+%\subsection{Definice problému}
 
 \subsection{Popis Dijkstrova algoritmu}
 Algoritmus je možné chápat jako zobecněné prohledávání do šířky. Po provedení nám dává řešení nejkratších
@@ -41,8 +41,36 @@ Celková složitost implementovaného Dijsktova algoritmu je\-
 \textit{O(${nodes*(nodes+nodes . log(nodes)+edges . log(nodes))}$)}
 
 \subsection{Popis Floyd-Warshallova algoritmu}
+Výsledkem tohto algoritmu jsou nejkratší cesty mezi všemi páry uzlů.
 
 Pro složitost vytvořeného algoritmu platí:
+Počáteční inicializace použitých struktur \textit{O(${nodes}$)}. Následně se provádějí 3 vnořené cykly.
+Celková složitost je tedy \textit{O(${nodes^3}$)}
+
+\section{Vektorizace}
+Pro vektorizaci algoritmů byla použita automatická podpora vektorizace v kompilátoru g++. Její popis je k dispozici v dokumentaci gcc
+%https://gcc.gnu.org/projects/tree-ssa/vectorization.html#vectorizab
+
+\subsection{Dijkstrův algoritmus}
+Struktura Dijkstrova algoritmu patří mezi špatně vektorizovatelnou. Téměř veškeré použité smyčky nepodporují formát g++ pro 
+autovektorizaci. Jedinou smyčkou vhodnou k vektorizaci byla smyčka sloužící k inicializaci matic Dijktrova algoritmu (vzdálenosti, sousednosti). Oproti sekvenčnímu řešení však
+muselo dojít k její úpravě. inicializační cyklus byl
+upraven tak, že se všechny prvky matic nastavily na stejnou počáteční hodnotu. Hodnota startovacího prvku byla nastavena až po počáteční inicializaci. Dále z důvodu neznámého
+počtu interací byl tento počet nastaven do proměnné \textit{tmp}, ještě před voláním inicializačních cyklů.
+
+Díky použité vektorizaci a zapnutým optimalizacím došlo ke snižení celkového výpočetního času. Náměřené výsledky jsou v kapitole ..
+\subsection{Floyd-Warshallovův algoritmus}
+\section{Paralelizace - OpenMP}
+Pro paralelizaci algoritmů byla využito datového paralelismu. V této kapitole jsou popsány nutné úpravy, které bylo potřeba provést. V další části se nachází naměřené
+výsledky použitých variant algoritmů.
+\subsection{Dijkstrův algoritmus}
+Už při vektorizaci tohoto algorimu je zřejmé, že jeho struktura není příliš dobře paralelizovatelná. Jedinou možností paralelizace je přiřazení počátečních uzlů každému vláknu. Vlákna následně
+pro daný počáteční uzel naleznou nejkratší cesty do všech ostatních uzlů.
+
+V sekvečním algoritmu bylo 
+
+\subsection{Floyd-Warshallovův algoritmus}
+
 
 
 
