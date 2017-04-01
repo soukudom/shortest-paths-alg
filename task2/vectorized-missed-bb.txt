@@ -1,0 +1,1082 @@
+/usr/include/c++/5/bits/locale_facets.h:1083:16: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:41:21: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:39:8: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:45:25: note: misalign = 0 bytes of ref time.tv_sec
+fw.cpp:45:25: note: misalign = 8 bytes of ref time.tv_usec
+fw.cpp:45:25: note: Failed to SLP the basic block.
+fw.cpp:45:25: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:45:25: note: misalign = 0 bytes of ref time.tv_sec
+fw.cpp:45:25: note: misalign = 8 bytes of ref time.tv_usec
+fw.cpp:45:25: note: Failed to SLP the basic block.
+fw.cpp:45:25: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:39:8: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:48:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:52:23: note: not vectorized: control flow in loop.
+fw.cpp:52:23: note: bad loop form.
+fw.cpp:52:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:52:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:56:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:56:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:51:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:53:18: note: not consecutive access _14 = *_13;
+
+fw.cpp:53:18: note: not consecutive access _10 = this_8(D)->FWDistanceMatrix;
+
+fw.cpp:53:18: note: Failed to SLP the basic block.
+fw.cpp:53:18: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:53:18: note: not consecutive access _14 = *_13;
+
+fw.cpp:53:18: note: not consecutive access _10 = this_8(D)->FWDistanceMatrix;
+
+fw.cpp:53:18: note: Failed to SLP the basic block.
+fw.cpp:53:18: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:53:36: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:54:18: note: not consecutive access _18 = *_17;
+
+fw.cpp:54:18: note: not consecutive access _16 = this_8(D)->FWPathMatrix;
+
+fw.cpp:54:18: note: Failed to SLP the basic block.
+fw.cpp:54:18: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:54:18: note: not consecutive access _18 = *_17;
+
+fw.cpp:54:18: note: not consecutive access _16 = this_8(D)->FWPathMatrix;
+
+fw.cpp:54:18: note: Failed to SLP the basic block.
+fw.cpp:54:18: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:54:32: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:52:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:52:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:51:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:56:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:57:14: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:51:11: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:61:12: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:61:12: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:67:27: note: not vectorized: number of iterations cannot be computed.
+fw.cpp:67:27: note: bad inner-loop form.
+fw.cpp:67:27: note: not vectorized: Bad inner loop.
+fw.cpp:67:27: note: bad loop form.
+fw.cpp:67:27: note: not vectorized: number of iterations cannot be computed.
+fw.cpp:67:27: note: bad loop form.
+fw.cpp:66:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:66:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:72:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:65:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:67:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _23 = MEM[(const struct basic_ios *)_29]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _21 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _27 = MEM[(long int *)_21 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _23 = MEM[(const struct basic_ios *)_29]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _21 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _27 = MEM[(long int *)_21 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:65:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:68:21: note: not consecutive access _13 = *_12;
+
+fw.cpp:68:21: note: not consecutive access _17 = *_16;
+
+fw.cpp:68:21: note: not consecutive access _9 = this_6(D)->FWDistanceMatrix;
+
+fw.cpp:68:21: note: Failed to SLP the basic block.
+fw.cpp:68:21: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:68:21: note: not consecutive access _13 = *_12;
+
+fw.cpp:68:21: note: not consecutive access _17 = *_16;
+
+fw.cpp:68:21: note: not consecutive access _9 = this_6(D)->FWDistanceMatrix;
+
+fw.cpp:68:21: note: Failed to SLP the basic block.
+fw.cpp:68:21: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:65:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:65:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:14: note: not consecutive access _11 = *_10;
+
+fw.cpp:89:14: note: not consecutive access _15 = *_14;
+
+fw.cpp:89:14: note: not consecutive access _7 = this_6(D)->FWPathMatrix;
+
+fw.cpp:89:14: note: Failed to SLP the basic block.
+fw.cpp:89:14: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:89:14: note: not consecutive access _11 = *_10;
+
+fw.cpp:89:14: note: not consecutive access _15 = *_14;
+
+fw.cpp:89:14: note: not consecutive access _7 = this_6(D)->FWPathMatrix;
+
+fw.cpp:89:14: note: Failed to SLP the basic block.
+fw.cpp:89:14: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:92:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:95:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:76:13: note: not vectorized: control flow in loop.
+fw.cpp:76:13: note: bad loop form.
+fw.cpp:75:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:75:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:84:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:74:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:76:13: note: not consecutive access _12 = *_11;
+
+fw.cpp:76:13: note: not consecutive access _16 = *_15;
+
+fw.cpp:76:13: note: not consecutive access _7 = this_5(D)->FWDistanceMatrix;
+
+fw.cpp:76:13: note: Failed to SLP the basic block.
+fw.cpp:76:13: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:76:13: note: not consecutive access _12 = *_11;
+
+fw.cpp:76:13: note: not consecutive access _16 = *_15;
+
+fw.cpp:76:13: note: not consecutive access _7 = this_5(D)->FWDistanceMatrix;
+
+fw.cpp:76:13: note: Failed to SLP the basic block.
+fw.cpp:76:13: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:76:49: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:14: note: not consecutive access _75 = *_74;
+
+fw.cpp:89:14: note: not consecutive access _79 = *_78;
+
+fw.cpp:89:14: note: not consecutive access _37 = this_5(D)->FWPathMatrix;
+
+fw.cpp:89:14: note: Failed to SLP the basic block.
+fw.cpp:89:14: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:89:14: note: not consecutive access _75 = *_74;
+
+fw.cpp:89:14: note: not consecutive access _79 = *_78;
+
+fw.cpp:89:14: note: not consecutive access _37 = this_5(D)->FWPathMatrix;
+
+fw.cpp:89:14: note: Failed to SLP the basic block.
+fw.cpp:89:14: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:87:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:88:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:89:35: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:92:48: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _126 = MEM[(const struct basic_ios *)_67]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _64 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _65 = MEM[(long int *)_64 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _126 = MEM[(const struct basic_ios *)_67]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _64 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _65 = MEM[(long int *)_64 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:75:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:75:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:74:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:112:24: note: not vectorized: multiple nested loops.
+fw.cpp:112:24: note: bad loop form.
+fw.cpp:115:28: note: failed: evolution of base is not affine.
+fw.cpp:115:28: note: bad data references.
+fw.cpp:115:28: note: failed: evolution of base is not affine.
+fw.cpp:115:28: note: bad data references.
+fw.cpp:116:32: note: not vectorized: complicated access pattern.
+fw.cpp:116:32: note: bad data access.
+fw.cpp:116:32: note: not vectorized: complicated access pattern.
+fw.cpp:116:32: note: bad data access.
+fw.cpp:100:24: note: failed: evolution of base is not affine.
+fw.cpp:100:24: note: bad data references.
+fw.cpp:100:24: note: failed: evolution of base is not affine.
+fw.cpp:100:24: note: bad data references.
+fw.cpp:101:28: note: versioning for alias required: can't determine dependence between *_28 and *_22
+fw.cpp:101:28: note: Unknown misalignment, is_packed = 0
+fw.cpp:101:28: note: Unknown misalignment, is_packed = 0
+fw.cpp:101:28: note: virtual phi. skip.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: not vectorized: relevant stmt not supported: iftmp.2_6 = _29 != 5000 ? i_67 : -1;
+fw.cpp:101:28: note: bad operation or unsupported loop bound.
+fw.cpp:101:28: note: versioning for alias required: can't determine dependence between *_28 and *_22
+fw.cpp:101:28: note: Unknown misalignment, is_packed = 0
+fw.cpp:101:28: note: Unknown misalignment, is_packed = 0
+fw.cpp:101:28: note: virtual phi. skip.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: not ssa-name.
+fw.cpp:101:28: note: use not simple.
+fw.cpp:101:28: note: virtual phi. skip.
+fw.cpp:101:28: note: virtual phi. skip.
+fw.cpp:99:20: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:99:20: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:144:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: Failed to SLP the basic block.
+fw.cpp:97:6: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: Failed to SLP the basic block.
+fw.cpp:97:6: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: SLP: step doesn't divide the vector-size.
+fw.cpp:97:6: note: Unknown alignment for access: *pretmp_115
+fw.cpp:97:6: note: SLP: step doesn't divide the vector-size.
+fw.cpp:97:6: note: Unknown alignment for access: *pretmp_120
+fw.cpp:97:6: note: Failed to SLP the basic block.
+fw.cpp:97:6: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: SLP: step doesn't divide the vector-size.
+fw.cpp:97:6: note: Unknown alignment for access: *pretmp_115
+fw.cpp:97:6: note: SLP: step doesn't divide the vector-size.
+fw.cpp:97:6: note: Unknown alignment for access: *pretmp_120
+fw.cpp:97:6: note: Failed to SLP the basic block.
+fw.cpp:97:6: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:106:30: note: not consecutive access *_159 = iftmp.2_162;
+
+fw.cpp:106:30: note: not consecutive access _161 = *_160;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_159 = iftmp.2_162;
+
+fw.cpp:106:30: note: not consecutive access _161 = *_160;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_171 = iftmp.2_174;
+
+fw.cpp:106:30: note: not consecutive access _173 = *_172;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_171 = iftmp.2_174;
+
+fw.cpp:106:30: note: not consecutive access _173 = *_172;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_63 = iftmp.2_24;
+
+fw.cpp:106:30: note: not consecutive access _43 = *_62;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_63 = iftmp.2_24;
+
+fw.cpp:106:30: note: not consecutive access _43 = *_62;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:106:57: note: not vectorized: no vectype for stmt: vect__29.193_145 = MEM[(int *)vectp_pretmp.191_142];
+ scalar_type: vector(4) int
+fw.cpp:106:57: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:106:30: note: not consecutive access *_123 = iftmp.2_112;
+
+fw.cpp:106:30: note: not consecutive access _118 = *_119;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_123 = iftmp.2_112;
+
+fw.cpp:106:30: note: not consecutive access _118 = *_119;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:106:30: note: not consecutive access *_74 = iftmp.2_20;
+
+fw.cpp:106:30: note: not consecutive access _72 = *_3;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_74 = iftmp.2_20;
+
+fw.cpp:106:30: note: not consecutive access _72 = *_3;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_45 = iftmp.2_151;
+
+fw.cpp:106:30: note: not consecutive access _55 = *_46;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: not consecutive access *_45 = iftmp.2_151;
+
+fw.cpp:106:30: note: not consecutive access _55 = *_46;
+
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:106:30: note: SLP: step doesn't divide the vector-size.
+fw.cpp:106:30: note: Unknown alignment for access: *_92
+fw.cpp:106:30: note: SLP: step doesn't divide the vector-size.
+fw.cpp:106:30: note: Unknown alignment for access: *_93
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:106:30: note: SLP: step doesn't divide the vector-size.
+fw.cpp:106:30: note: Unknown alignment for access: *_92
+fw.cpp:106:30: note: SLP: step doesn't divide the vector-size.
+fw.cpp:106:30: note: Unknown alignment for access: *_93
+fw.cpp:106:30: note: Failed to SLP the basic block.
+fw.cpp:106:30: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:100:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:134:48: note: not consecutive access _42 = *pretmp_144;
+
+fw.cpp:134:48: note: not consecutive access sum = sum.3_51;
+
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: *_49
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: MEM[(const int &)_53]
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: *_53
+fw.cpp:134:48: note: Failed to SLP the basic block.
+fw.cpp:134:48: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:134:48: note: not consecutive access _42 = *pretmp_144;
+
+fw.cpp:134:48: note: not consecutive access sum = sum.3_51;
+
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: *_49
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: MEM[(const int &)_53]
+fw.cpp:134:48: note: SLP: step doesn't divide the vector-size.
+fw.cpp:134:48: note: Unknown alignment for access: *_53
+fw.cpp:134:48: note: Failed to SLP the basic block.
+fw.cpp:134:48: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:115:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:112:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:97:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: control flow in loop.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: bad inner-loop form.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: Bad inner loop.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: bad loop form.
+fw.cpp:163:19: note: not vectorized: control flow in loop.
+fw.cpp:163:19: note: bad loop form.
+fw.cpp:176:23: note: not vectorized: control flow in loop.
+fw.cpp:176:23: note: bad loop form.
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(struct _Alloc_hider *)&line]._M_p = &line.D.12038._M_local_buf;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(size_type *)&line + 8B] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(char_type &)&line + 16] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(struct _Alloc_hider *)&line]._M_p = &line.D.12038._M_local_buf;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(size_type *)&line + 8B] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not consecutive access MEM[(char_type &)&line + 16] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:109:35: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:109:35: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:496:38: note: interleaved store with gaps
+/usr/include/c++/5/fstream:496:38: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/fstream:496:38: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.20426._vptr.ios_base
+/usr/include/c++/5/fstream:496:38: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:496:38: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:496:38: note: interleaved store with gaps
+/usr/include/c++/5/fstream:496:38: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/fstream:496:38: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.20426._vptr.ios_base
+/usr/include/c++/5/fstream:496:38: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:496:38: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:498:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:597:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:597:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _94 = MEM[(_Ios_Iostate *)_93 + 32B];
+
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _90 = inFile.D.24740._vptr.basic_istream;
+
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _91 = MEM[(long int *)_90 + -24B];
+
+/usr/include/c++/5/fstream:598:4: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:598:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _94 = MEM[(_Ios_Iostate *)_93 + 32B];
+
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _90 = inFile.D.24740._vptr.basic_istream;
+
+/usr/include/c++/5/fstream:598:4: note: not consecutive access _91 = MEM[(long int *)_90 + -24B];
+
+/usr/include/c++/5/fstream:598:4: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:598:4: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:602:4: note: not consecutive access _86 = inFile.D.24740._vptr.basic_istream;
+
+/usr/include/c++/5/fstream:602:4: note: not consecutive access _87 = MEM[(long int *)_86 + -24B];
+
+/usr/include/c++/5/fstream:602:4: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:602:4: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:602:4: note: not consecutive access _86 = inFile.D.24740._vptr.basic_istream;
+
+/usr/include/c++/5/fstream:602:4: note: not consecutive access _87 = MEM[(long int *)_86 + -24B];
+
+/usr/include/c++/5/fstream:602:4: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:602:4: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:496:38: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _83->D.20426._vptr.ios_base = iftmp.13_74;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _81 = MEM[(long int *)iftmp.11_70 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _83->D.20426._vptr.ios_base = iftmp.13_74;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _81 = MEM[(long int *)iftmp.11_70 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:253:32: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _60 = MEM[(const struct basic_ios *)_99]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _96 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _97 = MEM[(long int *)_96 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _60 = MEM[(const struct basic_ios *)_99]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _96 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _97 = MEM[(long int *)_96 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _112 = MEM[(const struct ctype *)_60].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _113 = MEM[(int (*__vtbl_ptr_type) () *)_112 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _112 = MEM[(const struct ctype *)_60].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _113 = MEM[(int (*__vtbl_ptr_type) () *)_112 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:613:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _16 = MEM[(const struct basic_ios *)_125]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _122 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _123 = MEM[(long int *)_122 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _16 = MEM[(const struct basic_ios *)_125]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _122 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _123 = MEM[(long int *)_122 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _137 = MEM[(const struct ctype *)_16].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _138 = MEM[(int (*__vtbl_ptr_type) () *)_137 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _137 = MEM[(const struct ctype *)_16].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _138 = MEM[(int (*__vtbl_ptr_type) () *)_137 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:56: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/stdlib.h:280:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/stdlib.h:280:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:38: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:38: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:39: note: not consecutive access _152 = this_18(D)->nodes;
+
+fw.cpp:173:39: note: not consecutive access this_18(D)->FWDistanceMatrix = _151;
+
+fw.cpp:173:39: note: Failed to SLP the basic block.
+fw.cpp:173:39: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:173:39: note: not consecutive access _152 = this_18(D)->nodes;
+
+fw.cpp:173:39: note: not consecutive access this_18(D)->FWDistanceMatrix = _151;
+
+fw.cpp:173:39: note: Failed to SLP the basic block.
+fw.cpp:173:39: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:174:34: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:174:34: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:174:35: note: not consecutive access _180 = this_18(D)->nodes;
+
+fw.cpp:174:35: note: not consecutive access this_18(D)->FWPathMatrix = _156;
+
+fw.cpp:174:35: note: Failed to SLP the basic block.
+fw.cpp:174:35: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:174:35: note: not consecutive access _180 = this_18(D)->nodes;
+
+fw.cpp:174:35: note: not consecutive access this_18(D)->FWPathMatrix = _156;
+
+fw.cpp:174:35: note: Failed to SLP the basic block.
+fw.cpp:174:35: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:159:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:176:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:176:41: note: not consecutive access *_162 = _166;
+
+fw.cpp:176:41: note: not consecutive access _167 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:176:41: note: not consecutive access _169 = this_18(D)->nodes;
+
+fw.cpp:176:41: note: Failed to SLP the basic block.
+fw.cpp:176:41: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:176:41: note: not consecutive access *_162 = _166;
+
+fw.cpp:176:41: note: not consecutive access _167 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:176:41: note: not consecutive access _169 = this_18(D)->nodes;
+
+fw.cpp:176:41: note: Failed to SLP the basic block.
+fw.cpp:176:41: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:177:44: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:177:44: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:177:45: note: not consecutive access *_168 = _173;
+
+fw.cpp:177:45: note: not consecutive access _157 = this_18(D)->nodes;
+
+fw.cpp:177:45: note: Failed to SLP the basic block.
+fw.cpp:177:45: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:177:45: note: not consecutive access *_168 = _173;
+
+fw.cpp:177:45: note: not consecutive access _157 = this_18(D)->nodes;
+
+fw.cpp:177:45: note: Failed to SLP the basic block.
+fw.cpp:177:45: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _272 = MEM[(const struct basic_ios *)_247]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _192 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _230 = MEM[(long int *)_192 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _272 = MEM[(const struct basic_ios *)_247]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _192 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _230 = MEM[(long int *)_192 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _22 = MEM[(const struct basic_ios *)_177]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _20 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _175 = MEM[(long int *)_20 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _22 = MEM[(const struct basic_ios *)_177]._M_ctype;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _20 = MEM[(struct basic_istream *)&inFile]._vptr.basic_istream;
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not consecutive access _175 = MEM[(long int *)_20 + -24B];
+
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:26: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _189 = MEM[(const struct ctype *)_134].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _190 = MEM[(int (*__vtbl_ptr_type) () *)_189 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _189 = MEM[(const struct ctype *)_134].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _190 = MEM[(int (*__vtbl_ptr_type) () *)_189 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:5214:56: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:462:59: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/sstream:423:68: note: interleaved store with gaps
+/usr/include/c++/5/sstream:423:68: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/sstream:423:68: note: misalign = 24 bytes of ref MEM[(struct basic_ios *)&is + 120B].D.20426._vptr.ios_base
+/usr/include/c++/5/sstream:423:68: note: misalign = 16 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._vptr.basic_streambuf
+/usr/include/c++/5/sstream:423:68: note: misalign = 24 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_beg
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_cur
+/usr/include/c++/5/sstream:423:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_end
+/usr/include/c++/5/sstream:423:68: note: misalign = 16 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_beg
+/usr/include/c++/5/sstream:423:68: note: misalign = 24 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_cur
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_end
+/usr/include/c++/5/sstream:423:68: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:423:68: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/sstream:423:68: note: interleaved store with gaps
+/usr/include/c++/5/sstream:423:68: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/sstream:423:68: note: misalign = 8 bytes of ref MEM[(struct basic_ios *)&is + 120B].D.20426._vptr.ios_base
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._vptr.basic_streambuf
+/usr/include/c++/5/sstream:423:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_beg
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_cur
+/usr/include/c++/5/sstream:423:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_in_end
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_beg
+/usr/include/c++/5/sstream:423:68: note: misalign = 8 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_cur
+/usr/include/c++/5/sstream:423:68: note: misalign = 0 bytes of ref MEM[(struct basic_streambuf *)&is + 16B]._M_out_end
+/usr/include/c++/5/sstream:423:68: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:423:68: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.tcc:223:13: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access MEM[(char * *)&is + 88B] = _231;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access MEM[(size_type *)&is + 104B] = __dnew.28_232;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access __dnew.28_232 = __dnew;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access MEM[(char * *)&is + 88B] = _231;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access MEM[(size_type *)&is + 104B] = __dnew.28_232;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not consecutive access __dnew.28_232 = __dnew;
+
+/usr/include/c++/5/bits/basic_string.h:127:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:127:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:296:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not consecutive access MEM[(char_type &)&is + 104] = _234;
+
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not consecutive access _234 = MEM[(const char_type &)_217];
+
+/usr/include/c++/5/bits/char_traits.h:243:20: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not consecutive access MEM[(char_type &)&is + 104] = _234;
+
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not consecutive access _234 = MEM[(const char_type &)_217];
+
+/usr/include/c++/5/bits/char_traits.h:243:20: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/char_traits.h:243:20: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/char_traits.h:288:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/char_traits.h:290:66: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(char_type &)_237] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access _223 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(size_type *)&is + 96B] = prephitmp_47;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B]._M_mode = 8;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(char_type &)_237] = 0;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access _223 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(size_type *)&is + 96B] = prephitmp_47;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B]._M_mode = 8;
+
+/usr/include/c++/5/bits/basic_string.h:131:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/basic_string.h:131:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_string.h:179:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:179:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:543:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/sstream:424:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:162:29: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:162:29: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/sstream:433:9: note: not consecutive access _43 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/sstream:433:9: note: interleaved store with gaps
+/usr/include/c++/5/sstream:433:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/sstream:433:9: note: misalign = 24 bytes of ref MEM[(struct basic_ios *)&is + 120B].D.20426._vptr.ios_base
+/usr/include/c++/5/sstream:433:9: note: misalign = 16 bytes of ref MEM[(struct basic_stringbuf *)&is + 16B].D.25778._vptr.basic_streambuf
+/usr/include/c++/5/sstream:433:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:433:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/sstream:433:9: note: not consecutive access _43 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/sstream:433:9: note: interleaved store with gaps
+/usr/include/c++/5/sstream:433:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/sstream:433:9: note: misalign = 8 bytes of ref MEM[(struct basic_ios *)&is + 120B].D.20426._vptr.ios_base
+/usr/include/c++/5/sstream:433:9: note: misalign = 0 bytes of ref MEM[(struct basic_stringbuf *)&is + 16B].D.25778._vptr.basic_streambuf
+/usr/include/c++/5/sstream:433:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:433:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/sstream:65:11: note: not consecutive access _238 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/sstream:65:11: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B].D.25778._vptr.basic_streambuf = &MEM[(void *)&_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE + 16B];
+
+/usr/include/c++/5/sstream:65:11: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:65:11: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/sstream:65:11: note: not consecutive access _238 = MEM[(char * *)&is + 88B];
+
+/usr/include/c++/5/sstream:65:11: note: not consecutive access MEM[(struct basic_stringbuf *)&is + 16B].D.25778._vptr.basic_streambuf = &MEM[(void *)&_ZTVNSt7__cxx1115basic_stringbufIcSt11char_traitsIcESaIcEEE + 16B];
+
+/usr/include/c++/5/sstream:65:11: note: Failed to SLP the basic block.
+/usr/include/c++/5/sstream:65:11: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:543:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:543:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _215->D.20426._vptr.ios_base = iftmp.13_334;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _213 = MEM[(long int *)iftmp.11_383 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _215->D.20426._vptr.ios_base = iftmp.13_334;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _213 = MEM[(long int *)iftmp.11_383 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:163:19: note: not consecutive access _29 = *_28;
+
+fw.cpp:163:19: note: not consecutive access _25 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:163:19: note: Failed to SLP the basic block.
+fw.cpp:163:19: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:163:19: note: not consecutive access _29 = *_28;
+
+fw.cpp:163:19: note: not consecutive access _25 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:163:19: note: Failed to SLP the basic block.
+fw.cpp:163:19: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:164:13: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:164:27: note: not consecutive access _37 = *_36;
+
+fw.cpp:164:27: note: not consecutive access _39 = *_38;
+
+fw.cpp:164:27: note: not consecutive access _34 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:164:27: note: Failed to SLP the basic block.
+fw.cpp:164:27: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:164:27: note: not consecutive access _37 = *_36;
+
+fw.cpp:164:27: note: not consecutive access _39 = *_38;
+
+fw.cpp:164:27: note: not consecutive access _34 = this_18(D)->FWDistanceMatrix;
+
+fw.cpp:164:27: note: Failed to SLP the basic block.
+fw.cpp:164:27: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:165:48: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:165:48: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:162:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:162:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:543:23: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:543:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: Failed to SLP the basic block.
+fw.cpp:146:6: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:146:6: note: Failed to SLP the basic block.
+fw.cpp:146:6: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:534:9: note: interleaved store with gaps
+/usr/include/c++/5/fstream:534:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/fstream:534:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.20426._vptr.ios_base
+/usr/include/c++/5/fstream:534:9: note: misalign = 16 bytes of ref MEM[(struct basic_filebuf *)&inFile + 16B].D.24649._vptr.basic_streambuf
+/usr/include/c++/5/fstream:534:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:534:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:534:9: note: interleaved store with gaps
+/usr/include/c++/5/fstream:534:9: note: not vectorized: complicated access pattern.
+/usr/include/c++/5/fstream:534:9: note: misalign = 0 bytes of ref MEM[(struct basic_ios *)&inFile + 256B].D.20426._vptr.ios_base
+/usr/include/c++/5/fstream:534:9: note: misalign = 0 bytes of ref MEM[(struct basic_filebuf *)&inFile + 16B].D.24649._vptr.basic_streambuf
+/usr/include/c++/5/fstream:534:9: note: Failed to SLP the basic block.
+/usr/include/c++/5/fstream:534:9: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/fstream:239:24: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/fstream:239:24: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/streambuf:198:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _263->D.20426._vptr.ios_base = prephitmp_128;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _261 = MEM[(long int *)prephitmp_275 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/istream:104:36: note: not consecutive access _263->D.20426._vptr.ios_base = prephitmp_128;
+
+/usr/include/c++/5/istream:104:36: note: not consecutive access _261 = MEM[(long int *)prephitmp_275 + -24B];
+
+/usr/include/c++/5/istream:104:36: note: Failed to SLP the basic block.
+/usr/include/c++/5/istream:104:36: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_ios.h:282:22: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:161:30: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:179:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.h:179:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ext/new_allocator.h:110:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.tcc:216:4: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:146:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.tcc:219:71: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/basic_string.tcc:219:71: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:175:23: note: not vectorized: control flow in loop.
+fw.cpp:175:23: note: bad loop form.
+fw.cpp:173:33: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:33: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:38: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:173:38: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:174:34: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:174:34: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:172:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:179:1: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:176:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:176:40: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:176:40: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:177:44: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:177:44: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:172:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:172:6: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:187:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:561:2: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _32 = MEM[(const struct basic_ios *)_45]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _42 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _43 = MEM[(long int *)_42 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _32 = MEM[(const struct basic_ios *)_45]._M_ctype;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _42 = cout._vptr.basic_ostream;
+
+/usr/include/c++/5/ostream:591:19: note: not consecutive access _43 = MEM[(long int *)_42 + -24B];
+
+/usr/include/c++/5/ostream:591:19: note: Failed to SLP the basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/basic_ios.h:50:2: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:874:6: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:875:51: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:876:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _58 = MEM[(const struct ctype *)_32].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _59 = MEM[(int (*__vtbl_ptr_type) () *)_58 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _58 = MEM[(const struct ctype *)_32].D.17390._vptr.facet;
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not consecutive access _59 = MEM[(int (*__vtbl_ptr_type) () *)_58 + 48B];
+
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: Failed to SLP the basic block.
+/usr/include/c++/5/bits/locale_facets.h:877:27: note: not vectorized: failed to find SLP opportunities in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:591:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:613:25: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:191:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:191:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:192:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:192:23: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:221:29: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:113:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:211:39: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:221:29: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/ostream:113:19: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:185:9: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:183:5: note: not vectorized: not enough data-refs in basic block.
+fw.cpp:185:9: note: not vectorized: not enough data-refs in basic block.
+/usr/include/c++/5/iostream:74:25: note: not vectorized: not enough data-refs in basic block.

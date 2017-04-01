@@ -1,0 +1,3 @@
+fw.cpp:101:28: note: loop vectorized
+fw.cpp:101:28: note: loop versioned for vectorization because of possible aliasing
+fw.cpp:101:28: note: loop peeled for vectorization to enhance alignment
