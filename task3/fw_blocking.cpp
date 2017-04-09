@@ -16,6 +16,7 @@ using namespace std;
 int num_threads;
 
 #define FW_MAX 5000
+int BLOCK_SIZE;
 
 class NCG {
 public:
@@ -106,37 +107,21 @@ void NCG::FloydWarshall() {
             FWPathMatrix[i][j] = ( FWDistanceMatrix[i][j] == FW_MAX ? -1 : i);
         }
 
-    #pragma omp parallel num_threads(num_threads)
     for ( int k = 0; k < n; ++k)
-        #pragma omp for schedule (static)
-        for ( int i = 0; i < n; ++i) {
-            for ( int j = 0; j < n; ++j) {
-                // if zrusen, pocitam se spojitym grafem
-                //if (FWDistanceMatrix[i][k] ==  INT_MAX || FWDistanceMatrix[k][j] == INT_MAX)
-                //    continue;
+        /*for ( int i = 0; i < n; ++i) {
+            for ( int j = 0; j < n; ++j) {*/
 
-                /* 6.9s
-                sum = FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j];
-                if (FWDistanceMatrix[i][j] >  sum) {
-                    FWDistanceMatrix[i][j] = sum;
-                    FWPathMatrix[i][j] = FWPathMatrix[k][j];
-                }*/
-
-
-                //6.7s
-                /*if (FWDistanceMatrix[i][j] >  FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j]) {
-                    FWDistanceMatrix[i][j] = FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j];
-                    FWPathMatrix[i][j] = FWPathMatrix[k][j];
-                }*/
-                
-              //  FWDistanceMatrix[i][j] = min( FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j] ,  FWDistanceMatrix[i][j] );
+        for (int i1 = 0; i1 < n; i1 += BLOCK_SIZE)
+            for (int i2 = i1; i2 < min(i1 + BLOCK_SIZE, n); ++i2)
+                for (int j1 = 0; j1 < n; j1 += BLOCK_SIZE)
+                    for (int j2 = j1; j2 < min(j1 + BLOCK_SIZE, n); ++j2)
+                         //FWDistanceMatrix[i2][j2] = ( FWDistanceMatrix[i2][j2] >  FWDistanceMatrix[i2][k] + FWDistanceMatrix[k][j2] ? FWDistanceMatrix[i2][k] + FWDistanceMatrix[k][j2] : FWDistanceMatrix[i2][j2]);
+                        if (FWDistanceMatrix[i2][j2] >  FWDistanceMatrix[i2][k] + FWDistanceMatrix[k][j2]) {
+                            FWDistanceMatrix[i2][j2] = FWDistanceMatrix[i2][k] + FWDistanceMatrix[k][j2];
+                            FWPathMatrix[i2][j2] = FWPathMatrix[k][j2];
+                        }
 
 
-              FWDistanceMatrix[i][j] = ( FWDistanceMatrix[i][j] >  FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j] ? FWDistanceMatrix[i][k] + FWDistanceMatrix[k][j] : FWDistanceMatrix[i][j]);
-
-
-            }
-        }
 }
 
 bool NCG::loadMatrix(const char * matrixPath) {
@@ -180,12 +165,13 @@ int main( int argc, const char* argv[] )
 {
     NCG ncg;
 
-    if ( argc != 3 ) {
-        cout << "Bad Input.. 1st parameter: Path to file" << endl;
+    if ( argc != 4 ) {
+        cout << "Bad Input.. 1st parameter: Path to file. 2nd = threads. 3rd = block size" << endl;
         return 1;
     }
     ncg.loadMatrix(argv[1]);
     num_threads = atoi(argv[2]);
+    BLOCK_SIZE = atoi(argv[3]);
 
     //start of measuring
     double wall0 = get_wall_time();
